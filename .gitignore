@@ -1,0 +1,39 @@
+# General
+.DS_Store
+Thumbs.db
+*.log
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+ENV/
+env/
+.env
+.venv
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains
+.idea/
+
+# Build / distribution
+dist/
+build/
+coverage/
+*.lcov
+
+# Misc
+thumbs.db
+.sass-cache

@@ -2,21 +2,6 @@ Color Guess Game
 
 A tiny static HTML color-guessing game. Open `index.html` in a browser to play.
 
-How to run
-
-- Open the project folder and double-click `index.html`, or serve it with a static server.
-
-Windows (PowerShell) quick serve using Python 3:
-
-```powershell
-# from the project root
-python -m http.server 8000; Start-Process "http://localhost:8000"
-```
-
-Color Guess Game
-
-A tiny static HTML color-guessing game. Open `index.html` in a browser to play.
-
 Getting started (recommended: Visual Studio Code + Live Server)
 
 - Open the project folder (`F:/GitProjects/base-boss`) in Visual Studio Code.
@@ -33,11 +18,11 @@ Why use Live Server
 
 Quick alternative (PowerShell)
 
-If you don't want to use Live Server, you can use Python's simple HTTP server from PowerShell:
+If you don't want to use Live Server and have Node.js installed, you can use a simple static server via npm:
 
 ```powershell
-# from the project root
-python -m http.server 8000; Start-Process "http://localhost:8000"
+# from the project root (requires Node.js / npm)
+npx http-server -p 8000; Start-Process "http://127.0.0.1:8000"
 ```
 
 What the game does

@@ -11,16 +11,6 @@ yarn-error.log*
 package-lock.json
 yarn.lock
 
-# Python
-__pycache__/
-*.py[cod]
-*.pyo
-venv/
-ENV/
-env/
-.env
-.venv
-
 # VS Code
 .vscode/
 *.code-workspace

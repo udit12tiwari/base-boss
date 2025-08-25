@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Color Guess Game</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header id="header">
+    <h1>Guess The Color!</h1>
+    <p id="instructions">Click the square that matches the RGB value shown.</p>
+    <div class="controls">
+      <button id="reset">New Colors</button>
+      <button id="easy">Easy</button>
+      <button id="hard" class="selected">Hard</button>
+    </div>
+  </header>
+
+  <main>
+    <div class="game-info">
+      <div id="colorDisplay">RGB(0, 0, 0)</div>
+      <div id="message"></div>
+    </div>
+
+    <section id="container" class="container"></section>
+  </main>
+
+  <script src="js/game.js"></script>
+</body>
+</html>
